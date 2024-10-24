@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 header{
     background-color: lightblue;
@@ -42,7 +43,7 @@ h2{
 #carrossel {
     border: 2px solid #757575;
     border-radius: 15px;
-    width: 640px;
+    width: 600px;
     height: 300px;
     overflow: hidden;
     border: none;
@@ -59,6 +60,7 @@ h2{
     width: 636px;
     height: 300px;
 }
+
 @keyframes animacao{
     0%{margin-left:0;}
     3%{margin-left:0}
@@ -74,4 +76,31 @@ h2{
     99%{margin-left: -500%;}
     100%{margin-left: 0;}
 
+}
+@media (max-width: 768px) {
+    ul li {
+        padding: 10px; 
+        font-size: 1.2rem; 
+    }
+
+    h1 {
+        font-size: 1.5rem; 
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    #carrossel {
+        width: 350px;
+        height: 200px;
+    }
+    #imagens img{
+        width: 348px;
+        height: 200px;
+    }
+
+    section {
+        width: 95%; 
+    }
 }

@@ -45,3 +45,24 @@ p{
 h2{
     background-color: #fffd93cb;
 }
+@media (max-width: 768px) {
+    h1{
+        font-size: 1.5rem;
+    }
+    li a{
+        font-size: 1.2rem;
+    }
+    img{
+        width: 80%;
+    }
+    figure {
+        width: 280px;
+        height: 200px;
+    }
+    #imagens img{
+        width: 100%;
+    }
+    section{
+        width: 95%;
+    }
+}
