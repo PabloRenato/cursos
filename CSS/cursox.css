@@ -33,6 +33,9 @@ figure{
     left: 66%;
     transform: translate(-50%);
 }
+figure img{
+    width: 70%;
+}
 input{
     font-size: 20px;
 }
@@ -58,9 +61,6 @@ h2{
     figure {
         width: 280px;
         height: 200px;
-    }
-    #imagens img{
-        width: 100%;
     }
     section{
         width: 95%;
