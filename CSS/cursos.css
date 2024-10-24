@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: lightblue;
+    padding-bottom: 20px;
+}
+ul li{
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+}
+h1{
+    padding: 20px;
+}
+main{
+    background-color: lightblue;
+}
+footer{
+    background-color:#fffd93cb ;
+}
+section{
+    background-color: lightblue;
+    padding: 10px;
+    font-size: 20px;
+}
+.cursos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+input{
+    font-size: 20px;
+}

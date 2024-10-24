@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: lightblue;
+    padding-bottom: 20px;
+}
+ul li{
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+}
+h1{
+    padding: 20px;
+}
+main{
+    background-color: lightblue;
+}
+footer{
+    background-color:#fffd93cb ;
+}
+h2{
+    padding-left: 34%;
+    background-color: #fffd93cb;
+}
+form{
+    background-color: #fffd93cb;
+    padding: 10px;
+    width: 30%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+form label{
+    padding: 10px;
+}
+form input{
+    margin-top: 5px;
+    size: 20px;
+}

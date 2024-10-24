@@ -1,149 +1,77 @@
-/* inicio do cabeçalho */
-*{margin: 0px; padding:0px;}
-
-li{
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: lightblue;
+    padding-bottom: 20px;
+}
+ul li{
     display: inline;
-    margin: 15px;
+    padding: 20px;
     font-size: 20px;
 }
-#cabeçalho{
-    background-color: #d03b3b;
-    border-bottom: 5px solid #b93333;
+h1{
+    padding: 20px;
 }
-#cabeçalho ul a{
-    background-color: white;
-    padding: 5px;
-    color: black;
-}
-#cabeçalho ul li a{
-    text-decoration: none;
-    border-radius: 50px;
-    border: 2px solid #d03b3b;
-}
-#cabeçalho ul{
-    padding: 10px;
-}
-#logo{
-    display: flex;
-    align-items: center;
-}
-#logo img{
-    width: 100px;
-    height: 100px;
-    border-radius: 75px;
-}
-#logo h2{
+main{
+    background-color: lightblue;
     padding-left: 20px;
 }
-#menu{
-    display: inline;
-    position: fixed;
-    right: 0;
-    top: 80px;
+footer{
+    background-color:#fffd93cb ;
 }
-.menubtn {
-    background-color: white;
-    color: black;
-    border: none;
-    cursor: pointer;
-    padding:10px;
-    border: 2px solid #d03b3b;
-    border-radius: 50px;
-}
-.menubtn:hover {
-    background-color: rgb(233, 233, 233);
-    }
-.dropdown {
+section{
+    background-color: lightblue;
+    padding: 10px;
+    width: 70%;
     position: relative;
-    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
 }
-.dropdown-child {
-    display: none;
-    position:absolute;
-    border:5px solid #b93333;
-    background-color: #d03b3b;
-    border-top: 0;
-    min-width: 160px;
-    transform: translateX(-65%);
-    top: calc(100% + 2px);
+article{
+    background-color: #fffd93cb;
+    padding: 10px;
 }
-.dropdown-child a {
-    color: black;
-    font-size: 15px;
-    border: 2px solid white;
-    background-color: white;
-    text-decoration: none;
-    display: block;
+p{
+    font-size: 20px;
 }
-.dropdown:hover .dropdown-child {
-    display: block;
+h2{
+    background-color: #fffd93cb;
 }
-/* fim do cabeçalho */
+#carrossel {
+    border: 2px solid #757575;
+    border-radius: 15px;
+    width: 640px;
+    height: 300px;
+    overflow: hidden;
+    border: none;
+    background-color: #fffd93cb;
+    position:relative; 
+    left:50%;
+    transform: translate(-50%)
+}
+#imagens{
+    width: 1100%;
+    animation: animacao 20s infinite;
+}
+#imagens img{
+    width: 636px;
+    height: 300px;
+}
+@keyframes animacao{
+    0%{margin-left:0;}
+    3%{margin-left:0}
+    20%{margin-left: -100%;}
+    23%{margin-left: -100%;}
+    40%{margin-left: -200%;}
+    43%{margin-left: -200%;}
+    60%{margin-left: -300%;}
+    63%{margin-left: -300%;}
+    80%{margin-left: -400%;}
+    83%{margin-left: -400%;}
+    98%{margin-left: -500%;}
+    99%{margin-left: -500%;}
+    100%{margin-left: 0;}
 
-/* inicio */
-#banner{
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
-    width: 1000px;
-    border:10px solid #b93333 ;
-}
-#prateleira{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    margin-top: 80px;
-    margin-bottom: 80px;
-    margin-left: 80px;
-}
-#prateleira img{
-    width: 300px;
-    border:10px solid #b93333 ;
-}
-#prateleira button{
-    width: 325px;
-    margin-bottom: 25px;
-}
-
-/* sobre */
-#sobre{
-    display: block;
-    margin: 0 auto;
-    margin-top: 20px;
-    width: 800px;
-}
-#historia{
-    display: block;
-    margin: 0 auto;
-    width: 1450px;
-}
-
-
-/* produtos */
-.produto{
-    margin: 10px;
-    background-color: #d03b3b;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000;
-}
-.produto a{
-    text-decoration: none;
-}
-#prateleira1{
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    margin-top: 80px;
-    margin-bottom: 80px;
-    margin-left: 80px;
-    width: 300px;
-    text-align: center;
-}
-#prateleira1 img{
-    width: 300px;
-    border:10px solid #b93333 ;
-}
-#prateleira1 button{
-    width: 300px;
-    margin-bottom: 10px;
 }
