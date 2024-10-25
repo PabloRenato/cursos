@@ -34,13 +34,21 @@ section{
     background-color: lightblue;
     padding: 10px;
     font-size: 20px;
+    background-color: #fffd93cb;
+    margin: 20px;
+    border: 3px solid black;
 }
 .cursos{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
 input{
-    font-size: 20px;
+    font-size: 25px;
+    margin-top: 10px;
+}
+p{
+    margin-top: 20px;
+    font-size: 25px;
 }
 a{
     background-color: white;
