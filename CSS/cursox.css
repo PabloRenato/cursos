@@ -2,6 +2,10 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-color: lightblue;
+    margin-bottom: 40px;
+}
 header{
     background-color: lightblue;
     padding-bottom: 20px;
@@ -18,7 +22,13 @@ main{
     background-color: lightblue;
 }
 footer{
+    border: 1px solid black;
     background-color:#fffd93cb ;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
 }
 section{
     background-color: #fffd93cb;
@@ -48,6 +58,13 @@ p{
 h2{
     background-color: #fffd93cb;
 }
+a{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 2px;
+}
 @media (max-width: 768px) {
     h1{
         font-size: 1.5rem;
@@ -59,7 +76,8 @@ h2{
         width: 80%;
     }
     figure {
-        width: 280px;
+        left:68%;
+        width: 450px;
         height: 200px;
     }
     section{
