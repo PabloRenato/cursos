@@ -36,6 +36,7 @@ h2,h3,h4{
 }
 section{
     background-color: #fffd93cb;
+    padding-bottom: 20px;
 }
 a{
     background-color: white;
