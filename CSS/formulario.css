@@ -51,7 +51,14 @@ form label{
 }
 form input{
     margin-top: 5px;
-    size: 20px;
+    height: 20px;
+}
+form input[type="submit"]{
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    margin-left: 150px;
+    font-size: 20px;
 }
 a{
     background-color: white;
